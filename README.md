@@ -10,6 +10,8 @@ The code is based on [this template](https://github.com/rp-rs/rp2040-project-tem
 
 The example code simply blinks the LED and sends a midi note on/off message. 
 
+For more general purpose examples of using the Pico board in Rust, see [this](https://github.com/rp-rs/rp-hal-boards/tree/main/boards/rp-pico/examples) from the rp-pico crate also used in this project.
+
 ## Important note
 
 When programming a USB Midi controller, NEVER put a delay in the main loop. This will cause the device to not be recognized on MacOS. Therefore, rather use a timer approach like in the code in this example.
