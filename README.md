@@ -1,5 +1,9 @@
 # Pico Rust USB MIDI controller
 
+![rust in action on the pico](rustpico.jpg) 
+
+_The Raspberry Pi Pico sending note on/off messages to Reaper_
+
 This is a simple example of how to program a Raspberry Pi Pico RP2040 using Rust and configure it as a USB Midi controller.
 
 The code is based on [this template](https://github.com/rp-rs/rp2040-project-template) and uses [usbd-midi](https://crates.io/crates/usbd-midi).
